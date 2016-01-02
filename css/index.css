@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Standard";
+    src: url(../fonts/Montserrat-Regular.ttf) format("truetype");
+}
+
+body {
+    font-family: "Standard";
+/*    background-image: url(../img/jumbotron.jpg);*/
+}
+
+.section {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.jumbotron {
+    background-image: url(../img/jumbotron.jpg);
+    background-position: top;
+    margin-top: 0px auto;
+    min-height: 400px;
+}
+
+/*
+.wrapper {
+    background-color: black;
+    opacity: 0.7;
+    min-height: inherit;
+}
+*/
+/*
+.navbar-text {
+    color: aqua;
+}
+*/
+
+
+
+.navbar-inverse {
+    background: darkolivegreen;
+    background: url(../img/jumbotron.jpg);
+/*    background-color: darkolivegreen;*/
+    border-bottom: 0px;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background: darkgreen;
+}
+
+.navbar-inverse .navbar-nav .nav-element a,
+.nav-element a:hover,
+.nav-element a:focus{
+    color: darkgreen;
+}
+
+.navbar-inverse .navbar-header .navbar-brand {
+    color: darkgreen;
+}
+
+.content {
+    background-color: lightsalmon;
+}
+
+p {
+    font-size: 17px;
+}
+
+footer {
+    background-color: gainsboro;
+}
+
+.author {
+    margin-left: 15px;
+}
+
+.form-well {
+    background: rgba(173,255,95,0.7);
+/*    opacity: 0.5;*/
+}
+
+.no-radius {
+    border-radius: 0px 0px 0px 0px;
+}
+.no-decoration {
+    list-style: none;
+}
+
+.glyphicon.glyphicon-picture {
+    font-size: 150px;
+    text-align: center;
+}
+.glyphicon.glyphicon-calendar {
+    font-size: 150px;
+    text-align: center;
+}

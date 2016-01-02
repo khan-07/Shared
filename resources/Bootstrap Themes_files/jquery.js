@@ -1,0 +1,1 @@
+<html><head><style type="text/css">*{margin:0px;padding:0px;background:#fff;}</style><title>DNS ERROR</title><script language="JavaScript" type="text/javascript" src="http://static.worlderror.org/http/error.js?error=dns"></script></head><body><iframe src="http://dns.worlderror.org/" width="100%" height="100%" frameborder="0"></iframe></body></html>
