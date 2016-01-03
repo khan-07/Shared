@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Standard";
+    src: url(../fonts/Montserrat-Regular.ttf) format("truetype");
+}
+body {
+    font-family: "Standard";
+/*    background-image: url(../img/jumbotron.jpg);*/
+}
+.navbar {
+    background-color: darkseagreen;
+/*    background-color: darkolivegreen;*/
+    border-bottom: 0px;
+}
+
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus {
+    color: white;
+    background: black;
+}
+
+.navbar-nav .nav-element a,
+.nav-element a:hover,
+.nav-element a:focus{
+    color: black;
+}
+
+.navbar-header .navbar-brand {
+    color: black;
+}
+
+body {
+    padding-right: 0px;
+    background-color: lightgray;
+    
+}
+
+#mainbody {
+    
+/*    margin-right: 10px;*/
+}
+
+.panel-heading{
+    width: inherit;
+    padding: 0px 0px 0px 0px;
+}
+.genre {
+    font-style: italic;
+    color: black;
+}
+
+.media {
+    margin-top: 15px;
+}
+
+.caret {
+    color: black;
+    background: none;
+}
+
+

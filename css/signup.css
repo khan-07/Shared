@@ -8,7 +8,7 @@ body {
 }
 .navbar-inverse {
     background: darkolivegreen;
-    background: url(../img/jumbotron.jpg);
+    background: url(../img/navbar.jpg);
 /*    background-color: darkolivegreen;*/
     border-bottom: 0px;
 }
