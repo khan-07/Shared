@@ -1,6 +1,14 @@
 $(document).ready(function() {
+    
+    
     $(".panel").click(function(){
-        alert($(this).data("genre") + " has been added to your interests");
-        $(this).fadeOut(500);
+        $(this).parent('div').fadeOut(500);
+        
+    });
+    
+    $(".panel").hover(function(){
+        $(this).children(".panel-heading").css('opacity',0.8);
+    }, function() {
+        $(this).children(".panel-heading").css('opacity',1);   
     });
 })

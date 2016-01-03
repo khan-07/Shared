@@ -38,26 +38,7 @@ body {
 .panel-body {
     
 }
-.voilet {
-    background-color: blueviolet;
-}
 
-.black {
-    background-color: black;
-}
-
-.grey {
-    background-color: grey;
-}
-
-.blue {
-    background-color: skyblue;
-}
-
-.pink {
-    background-color: hotpink;
-}
-
-.red {
-    background-color: brown;
+.panel-title {
+    font-size: 20px;
 }
